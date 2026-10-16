@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #f8fafc;
+  --bg-card: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --accent-primary: #0b6b3a;
+  --accent-secondary: #d97706;
+  --border-color: #e2e8f0;
+}
+
+.dark {
+  --bg-primary: #090d16;
+  --bg-card: #131c2e;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --accent-primary: #10b981;
+  --accent-secondary: #f59e0b;
+  --border-color: #1e293b;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}

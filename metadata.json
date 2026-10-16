@@ -1,0 +1,7 @@
+{
+  "name": "LessonChip - Cameroon Primary Lesson Planner",
+  "description": "Multilingual AI-powered primary and nursery lesson planner for Cameroon education (Anglophone & Francophone sub-systems), supporting English, French, and Hausa.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
